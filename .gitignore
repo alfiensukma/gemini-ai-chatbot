@@ -1,0 +1,91 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# OS
+.DS_Store
+.fleet
+.idea
+Thumbs.db
+desktop.ini
+
+# Vim
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage
+*.lcov
+.nyc_output
+test-results/
+playwright-report/
+
+# Prisma
+/app/generated/prisma
+*.db
+*.db-journal
+
+# Local development
+.vercel
+.netlify
+
+# Build artifacts
+build
+out
+
+# Temporary files
+tmp
+temp
+*.tmp
+*.bak
+*.backup
+*~
+
+# Package manager (optional - uncomment if needed)
+# pnpm-lock.yaml
+# package-lock.json
+# yarn.lock
+
+# Documentation
+.docusaurus
+.cache-loader
+
+# Storybook
+storybook-static
+
+# Debug
+.vscode/launch.json
