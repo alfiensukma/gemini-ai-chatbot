@@ -37,14 +37,14 @@ This application provides an intelligent chat interface where users can:
 Before you begin, ensure you have installed:
 - Node.js 18.x or higher
 - pnpm 8.x or higher
-- PostgreSQL database (or use Neon cloud database)
+- Neon cloud database (Pgsql)
 
 ## Environment Setup
 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd gemini-ai-chatbot-2
+cd gemini-ai-chatbot
 ```
 
 2. Install dependencies:
