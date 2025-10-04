@@ -1,6 +1,7 @@
 # Gemini AI Chatbot
 
 A modern chatbot application built with Nuxt 3, featuring real-time AI conversations powered by Google Gemini, complete with message editing, deletion, and conversation branching capabilities.
+https://gemini-chatbot-alfien.netlify.app/
 
 ## Overview
 
