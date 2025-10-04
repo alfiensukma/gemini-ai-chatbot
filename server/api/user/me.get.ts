@@ -37,19 +37,24 @@ export default defineEventHandler(async (event) => {
     }
 
     const logtoId = logtoUser.sub
-    const name = logtoUser.name || logtoUser.username || 'User'
+    const name = logtoUser.name || 'User'
+    const email = logtoUser.email || logtoUser.primaryEmail || null
+
     const user = await prisma.user.upsert({
       where: { logtoId },
       update: {
-        name
+        name,
+        email
       },
       create: {
         logtoId,
-        name
+        name,
+        email
       },
       select: {
         id: true,
         name: true,
+        email: true,
         logtoId: true
       }
     })
