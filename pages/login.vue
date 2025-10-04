@@ -10,7 +10,7 @@
               </svg>
             </div>
             <CardTitle class="text-3xl font-bold text-gray-900">Chatbot AI</CardTitle>
-            <p class="text-sm text-gray-600 mt-2">Masuk menggunakan Logto Auth</p>
+            <p class="text-sm text-gray-600 mt-2">Masuk ke Chatbot menggunakan Logto Authentication</p>
           </CardHeader>
           <CardContent>
               <Button class="w-full mb-4" :disabled="isLoading" @click="goLogto">
