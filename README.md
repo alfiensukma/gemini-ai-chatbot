@@ -175,14 +175,13 @@ pnpm preview
 - Image upload and analysis
 - Context-aware conversations
 
-**User Interface**
-- Responsive design (desktop and mobile)
-- Dark/light mode support
-- Toast notifications for feedback
-- Loading states and error handling
-- Markdown rendering with code highlighting
+## Screenshot
+
+### Chat Interface
+<img width="1876" height="1014" alt="Screenshot 2025-10-04 065429" src="https://github.com/user-attachments/assets/d75938ec-e4e3-4fac-9c34-eb0e3ba03129" />
 
 ## Database Schema
+<img width="1620" height="821" alt="Screenshot 2025-10-04 072706" src="https://github.com/user-attachments/assets/8f4bd314-f8cd-46c9-9774-e373ad21b0b2" />
 
 The application uses three main models:
 
@@ -286,4 +285,3 @@ Contributions are welcome. Please:
 For issues or questions:
 - Open an issue on GitHub
 - Check existing issues for solutions
-- Review documentation files (FEATURES.md, BRANCHING_CONCEPT.md)
