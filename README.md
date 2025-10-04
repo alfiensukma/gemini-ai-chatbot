@@ -180,8 +180,10 @@ pnpm preview
 ### Chat Interface
 <img width="1876" height="1014" alt="Screenshot 2025-10-04 065429" src="https://github.com/user-attachments/assets/d75938ec-e4e3-4fac-9c34-eb0e3ba03129" />
 
-## Database Schema
+### Database
 <img width="1620" height="821" alt="Screenshot 2025-10-04 072706" src="https://github.com/user-attachments/assets/8f4bd314-f8cd-46c9-9774-e373ad21b0b2" />
+
+## Database Schema
 
 The application uses three main models:
 
